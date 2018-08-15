@@ -158,5 +158,3 @@ func requestMinAndMax() -> (min:Int, max:Int){
 let minAndMax = requestMinAndMax()
 let min = requestMinAndMax().min
 let max = requestMinAndMax().max
-
-
