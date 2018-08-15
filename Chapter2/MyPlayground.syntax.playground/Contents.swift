@@ -85,4 +85,4 @@ for value in 0..<9 where value != 5 {
 //for-case-in
 //enumをforにかけるとき値を指定できる文
 
-
+z
