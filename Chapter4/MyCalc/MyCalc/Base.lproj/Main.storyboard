@@ -145,10 +145,10 @@
             </objects>
             <point key="canvasLocation" x="20" y="36"/>
         </scene>
-        <!--View Controller-->
+        <!--Percent View Controller-->
         <scene sceneID="cqQ-aE-lIQ">
             <objects>
-                <viewController id="Ujz-vZ-Phl" sceneMemberID="viewController">
+                <viewController id="Ujz-vZ-Phl" customClass="PercentViewController" customModule="MyCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wVg-TZ-QL4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -171,56 +171,89 @@
                                 <rect key="frame" x="10" y="230" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="tap1Button:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="qDY-eg-mwZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PVD-SK-Xxj">
                                 <rect key="frame" x="110" y="230" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="tap2Button:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="lz2-xh-HdT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wlb-qD-SMY">
                                 <rect key="frame" x="210" y="230" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="tap3Button:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="FbQ-13-g0E"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HQ4-7c-EkY">
                                 <rect key="frame" x="10" y="170" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="tap4Button:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="02A-FO-62c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rch-hP-Qnj">
                                 <rect key="frame" x="110" y="170" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="tap5Button:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="TaW-nF-VKl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Nm5-3E-gTQ">
                                 <rect key="frame" x="210" y="170" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="tap6Button:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="l4l-4f-P9T"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dSu-h8-6to">
                                 <rect key="frame" x="10" y="110" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="tap7Button:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="ZiG-08-FHO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VDI-cf-LBi">
                                 <rect key="frame" x="110" y="110" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="tap8Button:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="ged-rV-8EU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="F6u-jf-puO">
                                 <rect key="frame" x="210" y="110" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="tap9Button:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="mTD-GG-Qdd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bhs-QP-AE6">
                                 <rect key="frame" x="10" y="290" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="tap0Button:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="owW-oD-D4f"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Awh-OH-gxc">
                                 <rect key="frame" x="210" y="290" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="tapClearButton:" destination="Ujz-vZ-Phl" eventType="touchUpInside" id="RWj-tX-6Xs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8xa-Uo-gJ4">
                                 <rect key="frame" x="15" y="370" width="290" height="60"/>
@@ -230,6 +263,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="precentField" destination="cmj-sp-tTR" id="WeM-qd-sXN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yFZ-Sm-uUS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
