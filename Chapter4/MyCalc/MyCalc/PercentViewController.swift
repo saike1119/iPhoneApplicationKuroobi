@@ -111,6 +111,19 @@ class PercentViewController: UIViewController {
         precentField.text = "0"
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // 次の画面を取り出す
+        let viewController = segue.destination as! ResultViewController
+        
+        // 次の画面に現在保持している金額を設定する
+        viewController.price = price
+        
+        // 金額フィールドの文字列を数値に変換する
+        if let percent = Int(precentField.text!){
+            viewController.percent = percent
+        }
+    }
+    
     
     /*
     // MARK: - Navigation

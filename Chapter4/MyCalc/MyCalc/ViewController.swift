@@ -103,5 +103,19 @@ class ViewController: UIViewController {
     @IBAction func tapClearButton(_ sender: Any) {
         priceField.text = "0"
     }
+    
+    @IBAction func restart(_ segue: UIStoryboardSegue) {
+        priceField.text = "0"
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // 次の画面を取り出す
+        let viewController = segue.destination as! PercentViewController
+        
+        // 金額フィールドの文字列を数値に変換する
+        if let price = Int(priceField.text!){
+            viewController.price = price
+        }
+    }
 }
 
