@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2385214A2142ADE300010B52 /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238521492142ADE300010B52 /* PercentViewController.swift */; };
 		238676872139710C000ADF93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238676862139710C000ADF93 /* AppDelegate.swift */; };
 		238676892139710C000ADF93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238676882139710C000ADF93 /* ViewController.swift */; };
 		2386768C2139710C000ADF93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2386768A2139710C000ADF93 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		238521492142ADE300010B52 /* PercentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentViewController.swift; sourceTree = "<group>"; };
 		238676832139710C000ADF93 /* MyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		238676862139710C000ADF93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		238676882139710C000ADF93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				238676862139710C000ADF93 /* AppDelegate.swift */,
 				238676882139710C000ADF93 /* ViewController.swift */,
 				2386768A2139710C000ADF93 /* Main.storyboard */,
+				238521492142ADE300010B52 /* PercentViewController.swift */,
 				2386768D2139710E000ADF93 /* Assets.xcassets */,
 				2386768F2139710E000ADF93 /* LaunchScreen.storyboard */,
 				238676922139710E000ADF93 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				238676892139710C000ADF93 /* ViewController.swift in Sources */,
 				238676872139710C000ADF93 /* AppDelegate.swift in Sources */,
+				2385214A2142ADE300010B52 /* PercentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
